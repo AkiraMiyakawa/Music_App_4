@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background"
+    >
+
+    <ImageView
+        android:id="@+id/selected_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/playingicon" />
+
+    <TextView
+        android:id="@+id/trackTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:text="track name" />
+
+    <TextView
+        android:id="@+id/albumTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="24sp"
+        tools:text="artist" />
+
+
+</LinearLayout>

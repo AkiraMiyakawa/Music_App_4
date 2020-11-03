@@ -1,0 +1,47 @@
+
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Udacity music app</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for playlists [CHAR LIMIT=20] -->
+    <string name="category_playlists">Play lists</string>
+
+    <!-- Category name for artist [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for album[CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for all tracks [CHAR LIMIT=20] -->
+    <string name="category_tracks">Tracks</string>
+
+    <!-- Artists names and they songs -->
+    <string name="artist1" translatable="false">Backstreet Boys</string>
+    <string name="AlbumA_artist1">Black and Blue</string>
+    <string name="artist1music1" translatable="false">I Want It That Way</string>
+    <string name="artist1music2" translatable="false">Inconsolable</string>
+
+    <string name="artist2" translatable="false">Maroon 5</string>
+    <string name="AlbumA_artist2">Singles collection</string>
+    <string name="artist2music1_albumA" translatable="false">This love</string>
+    <string name="artist2music2_albumA" translatable="false">One more night</string>
+    <string name="AlbumB_artist2">Red pill blues</string>
+    <string name="artist2music1_albumB" translatable="false">Best for you</string>
+
+    <string name="artist3" translatable="false">Bruno Mars</string>
+    <string name="AlbumA_artist3">24K magic</string>
+    <string name="artist3music1" translatable="false">Just The Way You Are</string>
+    <string name="artist3music2" translatable="false">Chunky</string>
+    <string name="artist3music3" translatable="false">"That's what I like"</string>
+
+    <string name="description">Now playing...</string>
+    <string name="category_playing">Now playing....</string>
+
+    <string name="PlayList1">Favorite playlist 1</string>
+    <string name="PlayList2">Favorite playlist 2</string>
+
+
+</resources>
