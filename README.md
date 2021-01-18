@@ -11,8 +11,5 @@ Each activity is led in the end to the 5. PlayingActivity which has the playing 
 
 A custome adapter (Music adapter) is used to populate the layout based on the instances on the class.
 
-#Features
-
-
 #Requirement
 Target SDK version - 29 
