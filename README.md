@@ -2,51 +2,17 @@
 =================================
 *Created as a part of Udacity Android Basics by Google Nanodegree Program*
 
-This music app has 
-DEMO
+This music app has following activities:
+1. MainActivity - which is called when the app is launched.
+2. ArtistActivity - which is called when "Artists" is selected.
+3. AlbumsActivity - which is called when "Albums" is selected.
+4. PlayListActivity - which is called when "Playlist" is selected.
+Each activity is led in the end to the 5. PlayingActivity which has the playing screen with the song title.
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
-Features
+A custome adapter (Music adapter) is used to populate the layout based on the instances on the class.
 
-"hoge"のセールスポイントや差別化などを説明する
-Requirement
+#Features
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
 
-    huga 3.5.2
-    hogehuga 1.0.2
-
-Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
-pip install huga_package
-
-Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-
-Note
-
-注意点などがあれば書く
-Author
-
-作成情報を列挙する
-
-    作成者
-    所属
-    E-mail
-
-License
-
-ライセンスを明示する
-
-"hoge" is under MIT license.
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+#Requirement
+Target SDK version - 29 
